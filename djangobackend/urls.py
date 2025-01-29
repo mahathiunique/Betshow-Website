@@ -21,9 +21,8 @@ from djangobackendapp.views import BetshowList
  
 urlpatterns = [ 
     path('admin/', admin.site.urls), 
-    path('login/',views.showlogin), 
-    path('signup/',views.showsignup), 
-    path('signout/',views.logout), 
+    path('signup/',views.UsersignupAPI.as_view()), 
+    path('login/',views.UserloginAPI.as_view()), 
     path('getBetshow/',views.BetshowList.as_view()), 
  
 ] 

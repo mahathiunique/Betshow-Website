@@ -6,7 +6,7 @@ class BetshowSerializer(serializers.ModelSerializer):
         model=Betshow 
         fields='__all__' 
      
-class UserSerializer(serializers.ModelSerializer): 
+class UserdetailsSerializer(serializers.ModelSerializer): 
     class Meta: 
         model=Userdetails 
         fields='__all__'

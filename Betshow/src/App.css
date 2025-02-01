@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    background-color:black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    background-color: grey;
+    border-radius: 4px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #5c6bc0;
+    color: white;
+    padding: 50px 100px;
+    text-align: center;
+  }
+  
+  .hero-text {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .hero-explore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #292929;
+    font-size: 20px;
+  }
+  
+  .hero-play img {
+    width: 40px;
+    height: auto;
+  }
+  
+  .about, .team, .login {
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .about h1, .team h1, .login h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  
+  

@@ -1,0 +1,9 @@
+head{
+  margin:0;
+  padding:0;
+  font-family:Poppins;
+}
+body{
+  height: 100vh;
+  background:linear-gradient(#7c7ed3,#0003b7,#10dac9);
+}

@@ -1,0 +1,57 @@
+.team {
+  padding: 20px;
+  background-color: white;
+}
+
+.team h1 {
+  text-align: center;
+  color: black;
+}
+
+.team-section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px whitesmoke(0, 0, 0, 0.1);
+}
+
+.team-section h2 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.team-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.team-table th,
+.team-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid whitesmoke;
+}
+
+.team-table th {
+  background-color: #9e46e6;
+  color: white;
+}
+
+.team-table tr:nth-child(even) {
+  background-color: white;
+}
+
+.team-table tr:hover {
+  background-color: white;
+}
+
+.team-table a {
+  color: #9e46e6;
+  text-decoration: none;
+}
+
+.team-table a:hover {
+  text-decoration: underline;
+}
